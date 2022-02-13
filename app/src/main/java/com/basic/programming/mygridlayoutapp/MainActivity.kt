@@ -1,5 +1,6 @@
 package com.basic.programming.mygridlayoutapp
 
+import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private var charItem: ArrayList<CharItem>? = null
     private var gridLayoutManager: GridLayoutManager? = null
     private var alphaAdapters: AlphaAdapters? = null
+    private var mMediaPlayer: MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         charItem = ArrayList()
         charItem = setAlphas()
-        alphaAdapters = AlphaAdapters(applicationContext, charItem!!)
+        alphaAdapters = AlphaAdapters(applicationContext, charItem!!,mMediaPlayer)
         recyclerView?.adapter = alphaAdapters
 
     }

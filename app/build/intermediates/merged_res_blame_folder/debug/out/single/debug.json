@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Reda\\Desktop\\grid-layout-manager-app\\app\\src\\main\\res\\drawable\\letter_d.png"
     },
     {
+        "merged": "C:\\Users\\Reda\\Desktop\\grid-layout-manager-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_laugh.mp3.flat",
+        "source": "C:\\Users\\Reda\\Desktop\\grid-layout-manager-app\\app\\src\\main\\res\\raw\\laugh.mp3"
+    },
+    {
         "merged": "C:\\Users\\Reda\\Desktop\\grid-layout-manager-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Reda\\Desktop\\grid-layout-manager-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
